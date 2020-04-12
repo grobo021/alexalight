@@ -1,0 +1,28 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Control your light using voice commands",
+          "examplePhrases": [
+            "Alexa ask ramu kaka to turn on the light"
+          ],
+          "name": "smartlight",
+          "description": "Control your light using voice commands"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:621865232268:function:ask-smartlight-default-default-1586600680567"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}

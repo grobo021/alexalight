@@ -1,0 +1,61 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "magic uncle",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "ToggleLightIntent",
+                    "slots": [
+                        {
+                            "name": "toggle",
+                            "type": "Toggle"
+                        }
+                    ],
+                    "samples": [
+                        "please switch the light {toggle}",
+                        "please switch {toggle} the light",
+                        "please turn the light {toggle}",
+                        "please turn {toggle} the light",
+                        "switch the light {toggle}",
+                        "switch {toggle} the light",
+                        "turn the light {toggle}",
+                        "turn {toggle} the light"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "Toggle",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "off"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "on"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
